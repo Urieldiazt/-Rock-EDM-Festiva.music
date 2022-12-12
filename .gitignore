@@ -1,0 +1,4 @@
+#Ignorando Archivos
+*node_modules
+*src
+*.json

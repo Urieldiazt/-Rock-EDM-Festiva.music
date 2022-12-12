@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock & EDM Festival</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="build/css/app.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container contenido_header">
+            <h1>Rock & EDM Festival</h1>
+            <nav class="navegacion_principal">
+                <a href="#lineup">Line Up</a>
+                <a href="#galeria">Galeria</a>
+                <a href="#boletos">Boletos</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="video">
+        <div class="overlay">
+            <div class="container contenido-video">
+                <h2>Rock & EDM Festival</h2>
+                <p>Agosto 2022, Estado De Mexico, Mexico.</p>
+            </div>
+        </div>
+        <video autoplay muted loop >
+            <source src="video/concierto.mp4" type="video/mp4">
+            <source src="video/concierto.ogg" type="video/ogg">
+            <source src="video/concierto.webm" type="video/webm">
+        </video>
+    </div>
+
+    <section class="container festival-musica">
+       <div class="festival">
+            <div>
+               <picture>
+                    <source srcset="build/img/imagen_vocalista.avif" type="image/avif">
+                    <source srcset="build/img/imagen_vocalista.webp" type="image/webp">
+                    <img class="imagen-festival" width="200" height="300" loading="lazy" src="build/img/imagen_vocalista.jpg" alt="Imagen Vocalisata">
+               </picture>
+            </div>
+
+            <div class="informacion-festival">
+                <h2>Rock & EDM Festival</h2>
+                <p class="fecha-festival">Agosto 2022, Estado De Mexico, Mexico.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Aliquid, reiciendis voluptatem ad voluptatibus, exercitationem,
+                    animi iure fuga aperiam odio esse nostrum reprehenderit.
+                    Iusto in aliquam nesciunt, accusantium quidem labore nihil. 
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid,
+                    reiciendis voluptatem ad voluptatibus, exercitationem, 
+                    animi iure fuga aperiam odio esse nostrum reprehenderit. 
+                    Iusto in aliquam nesciunt, accusantium quidem labore nihil.</p>
+            </div>
+       </div>
+    </section>
+
+
+    <section class="lineup" id="lineup">
+        <h3>Line Up</h3>
+        
+        <p class="dia">Viernes 21</p>
+
+        <div class="escenario-contenedor container">
+            <div class="escenario rock bg-amarillo">
+                <p class="nombre-escenario">Escenario Rock</p>
+
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Metallica</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Pearl Jam</span>
+                    </li>
+                    <li>
+                        20:00 | <span>KoRn</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Muse</span>
+                    </li>
+                    <li>
+                        18:00 | <span>Breaking Benjamin</span>
+                    </li>
+                    <li>
+                        17:00 | <span>30 Seconds to Mars</span>
+                    </li>
+                </ul>
+            </div><!--.escenario-->
+
+            <div class="escenario edm bg-verde">
+                <p class="nombre-escenario">Escenario EDm</p>
+
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Deadmaus</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Tïesto</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Hardwell</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Dash Berlin</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Fedde Legrand</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Audien</span>
+                    </li>
+                </ul>
+            </div><!--.escenario-->
+        </div><!--.escenarios-contenedor-->
+
+        <p class="dia">Sabado 22</p>
+
+        <div class="escenario-contenedor container">
+            <div class="escenario rock bg-verde">
+                <p class="nombre-escenario">Escenario Rock</p>
+
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Red Hot Chili Peppers</span>
+                    </li>
+                    <li>
+                        22:00 | <span>The Killers</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Deftones</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Limp Bizkit</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Papa Roach</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Lamb of God</span>
+                    </li>
+                    
+                </ul>
+            </div><!--.escenario-->
+
+            <div class="escenario edm bg-amarillo">
+                <p class="nombre-escenario">Escenario EDm</p>
+
+                <ul class="calendario">
+                    <li>
+                        24:00 | <span>Paul Van Dyk</span>
+                    </li>
+                    <li>
+                        22:00 | <span>Armin Van Buuren</span>
+                    </li>
+                    <li>
+                        20:00 | <span>Above & Beyond</span>
+                    </li>
+                    <li>
+                        19:00 | <span>Eric Prdyz</span>
+                    </li>
+                    
+                    <li>
+                        18:00 | <span>Ferry Corsten</span>
+                    </li>
+                    <li>
+                        17:00 | <span>Vini Vici</span>
+                    </li>
+                </ul>
+            </div><!--.escenario-->
+        </div><!--.escenarios-contenedor-->
+    </section>
+
+    <section class="container" id="galeria">
+        <h3>Galeria Imagenes</h3>
+        <ul class="galeria-imagenes"></ul>
+    </section>
+
+    <section class="container boletos" id="boletos">
+        <h3>Boletos</h3>
+
+        <div class="pases">
+            <div class="pase">
+                <h3>Pase 1 Dia</h3>
+                <header class="pasesHeader">
+                    <p>incluye</p>
+                </header>
+
+                <ul>
+                    <li>Acceso a ambos escenarios</li>
+                    <li>Comida y Bevida</li>
+                </ul>
+
+                <footer class="pasesFooter">
+                    <p>$4800</p>
+                </footer>
+            </div><!--Pase-->
+
+            <div class="pase">
+                <h3>Pase 2 Dias</h3>
+                <header class="pasesHeader">
+                    <p>incluye</p>
+                </header>
+
+                <ul>
+                    <li>Acceso a ambos escenarios</li>
+                    <li>Comida y Bevida</li>
+                    <li>Camisa del Evento</li>
+                    <li>Acceso VIP</li>
+                </ul>
+
+                <footer class="pasesFooter">
+                    <p>$7800</p>
+                </footer>
+            </div><!--Pase-->
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="autor">Todos los derechos reservador Uriel Diaz Teodosio @2022</p>
+    </footer>
+
+    <script src="build/js/app.js"></script>
+</body>
+</html>
